@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-25T17:08:01 IDT" name="Suite" finished-at="2022-04-25T17:11:01 IDT" duration-ms="180184">
+    <groups>
+    </groups>
+    <test started-at="2022-04-25T17:08:01 IDT" name="LoginAsNewSubscriber" finished-at="2022-04-25T17:11:01 IDT" duration-ms="180184">
+      <class name="testCases.LoginAsNewSubscriber">
+        <test-method is-config="true" signature="setUpFramework()[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:08:01 IDT" name="setUpFramework" finished-at="2022-04-25T17:08:01 IDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method signature="existSubscriberAddNewLine(java.util.Hashtable)[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:08:01 IDT" name="existSubscriberAddNewLine" data-provider="masterDP" finished-at="2022-04-25T17:08:01 IDT" duration-ms="40" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{usernameCRM=okenig, numberOfLineToAdd=2, SaveForAllLines144=Y, Runmode=N, promoOn144=N, browser=chrome, SaveForAllLinesSim=Y, passwordCRM=AaBb0202, NewSim=Y, CarSim=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : LoginAsNewSubscriber as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : LoginAsNewSubscriber as the Run mode to Data set is NO
+at utilties.DataUtil.checkExecution(DataUtil.java:37)
+at testCases.LoginAsNewSubscriber.existSubscriberAddNewLine(LoginAsNewSubscriber.java:226)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existSubscriberAddNewLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:08:01 IDT" name="tearDown" finished-at="2022-04-25T17:08:01 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginAsExistSubscriber(java.util.Hashtable)[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:08:01 IDT" name="loginAsExistSubscriber" data-provider="masterDP" finished-at="2022-04-25T17:08:01 IDT" duration-ms="28" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordCRM=AaBb0202, browser=chrome, Runmode=N, usernameCRM=okenig}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : LoginAsNewSubscriber as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : LoginAsNewSubscriber as the Run mode to Data set is NO
+at utilties.DataUtil.checkExecution(DataUtil.java:37)
+at testCases.LoginAsNewSubscriber.loginAsExistSubscriber(LoginAsNewSubscriber.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsExistSubscriber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:08:01 IDT" name="tearDown" finished-at="2022-04-25T17:08:01 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginAsNewSubscriberCrediCard(java.util.Hashtable)[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:08:01 IDT" name="loginAsNewSubscriberCrediCard" data-provider="masterDP" finished-at="2022-04-25T17:11:01 IDT" duration-ms="179624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{usernameCRM=okenig, cardNameHolder=TestUser, cvv=806, Runmode=Y, browser=chrome, personalId=012345674, email=okenig@golantelecom.co.il, ExpectedResult=כל הקווים שלך פעילים, expMonth=12, passwordCRM=AaBb0202, creditCardNumber=5326105300985614, expYear=2025}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsNewSubscriberCrediCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:11:01 IDT" name="tearDown" finished-at="2022-04-25T17:11:01 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginAsNewSubscriberPayPal(java.util.Hashtable)[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:11:01 IDT" name="loginAsNewSubscriberPayPal" data-provider="masterDP" finished-at="2022-04-25T17:11:01 IDT" duration-ms="85" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{usernameCRM=okenig, paypalMail=golanBuyerTests@gmail.com, Runmode=N, browser=chrome, personalId=012345674, paypalPassword=12345678, email=okenig@golantelecom.co.il, ExpectedResult=כל הקווים שלך פעילים, passwordCRM=AaBb0202}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : LoginAsNewSubscriber as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : LoginAsNewSubscriber as the Run mode to Data set is NO
+at utilties.DataUtil.checkExecution(DataUtil.java:37)
+at testCases.LoginAsNewSubscriber.loginAsNewSubscriberPayPal(LoginAsNewSubscriber.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsNewSubscriberPayPal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginAsNewSubscriber@5fd4f8f5]" started-at="2022-04-25T17:11:01 IDT" name="tearDown" finished-at="2022-04-25T17:11:01 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginAsNewSubscriber -->
+    </test> <!-- LoginAsNewSubscriber -->
+  </suite> <!-- Suite -->
+</testng-results>
