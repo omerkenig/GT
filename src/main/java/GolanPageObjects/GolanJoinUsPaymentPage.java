@@ -103,6 +103,9 @@ public class GolanJoinUsPaymentPage extends BasePage {
 		System.out.println(lastFourDigitCreditCard);
 
 		driver.switchTo().frame(driver.findElement(By.className("payment-iframe")));
+		// int number = findFrameNumber(driver,By.xpath(OR.getProperty("FlightFrom")));
+		// System.out.println(number);
+		// driver.switchTo().frame(number);
 		
 		type(cardNameHolderText, cardNameHolder, "Card Name Holder");
 		type(creditCardNumberText, creditCardNumber, "Credit Card Number");
