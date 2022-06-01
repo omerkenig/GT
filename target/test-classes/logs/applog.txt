@@ -1,0 +1,2 @@
+INFO    2022-05-25 09:04:52,398 [main] rough.BaseTest  - Configuration file loaded !!!
+INFO    2022-05-25 09:04:55,838 [main] rough.BaseTest  - Chrome browser launched !!!

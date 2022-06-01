@@ -1,0 +1,7 @@
+testCases/TestConfig.class
+testCases/LoginAsExistSubscriber.class
+rough/CheckOS.class
+testCases/LoginAsNewSubscriber.class
+testCases/DbManager.class
+rough/BaseTest.class
+testCases/regressionTests.class
